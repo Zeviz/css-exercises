@@ -3,18 +3,23 @@ body {
   margin: 0 auto;
 }
 
+.one, .three {
+  padding:36px;
+
+}
 .one {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  
+  margin-bottom:5px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
+  width:650px;
   margin-bottom: 0px;
 }
 
@@ -23,6 +28,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  margin-top: 70px;
+  float:right;
 }
